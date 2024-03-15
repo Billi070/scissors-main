@@ -2,7 +2,7 @@ import { getApps, initializeApp } from "firebase/app";
 import { getDatabase } from "firebase/database";
 import { getAuth } from "firebase/auth";
 import { FirebaseApp } from "firebase/app";
-// require("dotenv").config();
+require("dotenv").config();
 
 const firebaseConfig = {
   apiKey: process.env.NEXT_PUBLIC_API_KEY,
