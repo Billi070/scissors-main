@@ -21,31 +21,6 @@ const firebaseConfig = {
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
-// Your web app's Firebase configuration
-// const firebaseConfig = {
-//   apiKey: "AIzaSyAYuZg1xwBtb4UnjNqMkCDrWDPrLOaI4M4",
-//   authDomain: "scissors-main.firebaseapp.com",
-//   projectId: "scissors-main",
-//   storageBucket: "scissors-main.appspot.com",
-//   messagingSenderId: "907576726972",
-//   appId: "1:907576726972:web:03f61213a1bbe0a46a87b9"
-// };
-
-// Initialize Firebase
-// const app = initializeApp(firebaseConfig);
-// const alreadyCreatedAps = getApps();
-// const yourFirebaseAdminConfig = {};
-
-// // const App =
-// //   alreadyCreatedAps.length === 0
-// //     ? initializeApp({ yourFirebaseAdminConfig }, "app name")
-// //     : alreadyCreatedAps[0];
-
-// // const yourFirebaseAdminConfig = {};
-
-// if (admin.apps.length === 0) {
-//   admin.initializeApp({ yourFirebaseAdminConfig });
-// }
 
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
